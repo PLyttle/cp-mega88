@@ -52,5 +52,4 @@ sram_init
   PORTB   = 0;
   DDRD    = 0xff;
   PORTD   = 0;
-  sram_bank(0);
 }
