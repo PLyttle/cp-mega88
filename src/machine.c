@@ -801,6 +801,9 @@ out
   case 16:
     dma_hi = val;
     break;
+  case 17:
+    sram_bank(val);
+    break;
   }
 }
 
